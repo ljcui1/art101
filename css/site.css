@@ -11,13 +11,23 @@ nav {
   display: block;
 }
 
-#navbar ul {
+#links ul {
   padding: 0;
   list-style: none;
 }
 
-#navbar li {
+#links li {
   display: inline;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+div {
+  display:block;
 }
 
 ul{
@@ -31,6 +41,8 @@ ul{
 
 li {
   text-align: -webkit-match-parent;
+  font-family: 'Courier New', Courier, monospace
+  
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
